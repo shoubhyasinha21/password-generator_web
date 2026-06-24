@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 420px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.result-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.result-box input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.result-box button {
+  padding: 12px 15px;
+  border: none;
+  background: #667eea;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.settings label {
+  display: block;
+  margin: 14px 0;
+  color: #333;
+  font-size: 15px;
+}
+
+.settings input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+.settings input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.generate-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  border: none;
+  background: #764ba2;
+  color: white;
+  font-size: 17px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.generate-btn:hover,
+.result-box button:hover {
+  opacity: 0.9;
+}
+
+#message {
+  margin-top: 15px;
+  color: green;
+  font-weight: bold;
+}
