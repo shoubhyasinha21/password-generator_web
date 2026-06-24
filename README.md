@@ -25,7 +25,10 @@ This project is a Password Generator Web Application built using HTML, CSS, and 
 3. Open `index.html` in your browser.
 
 ## GitHub Repository Link
-Add your GitHub repository link here.
+https://github.com/shoubhyasinha21/password-generator_web
 
 ## Live Hosted Project URL
 Add your hosted project link here.
+
+## Author
+Shoubhya Sinha
