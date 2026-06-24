@@ -1,4 +1,4 @@
-# Password Generator Web App
+# Password Generator Web  Project
 
 ## Objective
 This project is a Password Generator Web Application built using HTML, CSS, and JavaScript.
